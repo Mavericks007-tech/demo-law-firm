@@ -61,8 +61,17 @@ export default function CaseStudies() {
   return (
     <div className="bg-legal-darkest min-h-screen">
       {/* Header */}
-      <section className="bg-gradient-to-b from-legal-dark to-legal-darkest border-b border-legal-steel/50 py-16 px-4 sm:px-6 lg:px-8 text-center">
-        <div className="max-w-4xl mx-auto space-y-4">
+      <section className="relative overflow-hidden bg-gradient-to-b from-legal-dark to-legal-darkest border-b border-legal-steel/50 py-16 px-4 sm:px-6 lg:px-8 text-center">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/case studies.jpeg"
+            alt="Case studies background image"
+            fill
+            className="object-cover object-center"
+            quality={60}
+          />
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto space-y-4">
           <span className="text-xs uppercase tracking-widest text-legal-slate font-semibold">Litigation Success</span>
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-legal-light">Case Studies</h1>
           <p className="text-sm text-legal-ash max-w-2xl mx-auto leading-relaxed">

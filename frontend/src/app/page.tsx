@@ -39,7 +39,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/hero.jpg"
+            src="/hero.jpeg"
             alt="Scales of Justice, Gavel and Contract — Chambers of Advocate Munzur Morshed"
             fill
             priority
@@ -172,7 +172,7 @@ export default function Home() {
       <section className="relative py-24 border-b border-legal-steel/30 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/hero.jpg"
+            src="/hero.jpeg"
             alt="Law chambers atmosphere"
             fill
             className="object-cover object-right"

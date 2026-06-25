@@ -51,8 +51,8 @@ export default function About() {
       <section className="relative border-b border-legal-steel/50 py-16 px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/show%20up.jpeg"
-            alt=""
+            src="/show up.jpeg"
+            alt="About Advocate Munzur Morshed background"
             fill
             className="object-cover object-center"
             quality={60}
