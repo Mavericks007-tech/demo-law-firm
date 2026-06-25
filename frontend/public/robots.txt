@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Directories
+Disallow: /admin
+
+Sitemap: https://morshedlaw.com/sitemap.xml
