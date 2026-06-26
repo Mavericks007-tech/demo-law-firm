@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { getCases } from "@/lib/api";
 import { Gavel, Award, CheckCircle, ShieldAlert } from "lucide-react";
 

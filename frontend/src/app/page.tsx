@@ -47,6 +47,7 @@ export default function Home() {
             quality={85}
           />
         </div>
+        <div className="absolute inset-0 z-5 bg-legal-darkest/70" />
 
         <div className="max-w-7xl mx-auto w-full z-10 py-20 lg:py-32 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Hero Left Content */}
@@ -179,6 +180,7 @@ export default function Home() {
             quality={60}
           />
         </div>
+        <div className="absolute inset-0 z-0 bg-legal-darkest/70" />
 
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-12">
